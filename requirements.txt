@@ -1,0 +1,21 @@
+# 四进制基因编程演化系统
+# 
+# 本系统完全基于Python标准库实现，无需安装额外依赖
+# Python版本要求: 3.7+
+#
+# 核心依赖（标准库）：
+# - tkinter (GUI界面，Python自带)
+# - threading (多线程)
+# - queue (线程通信)
+# - dataclasses (数据类)
+# - typing (类型注解)
+# - time, random, argparse (工具类)
+#
+# 如果使用conda或virtualenv，运行以下命令确保环境正确：
+# python -c "import tkinter; print('✓ tkinter 可用')"
+#
+# 注意：部分精简Python发行版可能不包含tkinter，需要单独安装：
+# Ubuntu/Debian: sudo apt-get install python3-tk
+# CentOS/RHEL: sudo yum install python3-tkinter
+# macOS: brew install python-tk
+# Windows: tkinter随Python自动安装

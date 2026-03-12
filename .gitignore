@@ -1,0 +1,126 @@
+# ========================================
+# Python 项目 .gitignore
+# 项目：四进制基因编程演化系统
+# ========================================
+
+# ===== Python 编译文件 =====
+# 字节码文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C 扩展
+*.so
+
+# 分发/打包
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ===== 虚拟环境 =====
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ===== IDE 配置文件 =====
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# ===== 操作系统文件 =====
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# ===== 日志和数据库 =====
+*.log
+*.sqlite
+*.db
+
+# ===== 测试覆盖报告 =====
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# ===== Jupyter Notebook =====
+.ipynb_checkpoints
+
+# ===== 环境变量 =====
+.env
+.env.local
+.env.*.local
+
+# ===== 项目特定 =====
+# 四进制基因系统生成的文件
+experiments/
+results/
+logs/
+temp/
+*.genome
+*.evolution
+
+# 备份文件
+*.bak
+*.backup
+*.old
+
+# 临时文件
+tmp/
+temp/
+*.tmp
+
+# ===== 文档生成 =====
+docs/_build/
+site/
+
+# ===== 其他 =====
+*.zip
+*.tar.gz
+*.rar
