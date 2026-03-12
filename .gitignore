@@ -106,6 +106,34 @@ temp/
 *.genome
 *.evolution
 
+# 测试和调试文件（不应提交到仓库）
+test_*.py
+debug_*.py
+analyze_*.py
+demo.py
+find_output.py
+
+# Git 辅助脚本（本地使用，不应提交）
+git_init_commit.bat
+git_push_to_github.bat
+git_push_to_github.sh
+publish_to_github.bat
+rename_to_main.bat
+fix_main_branch.bat
+cleanup_unnecessary_files.bat
+
+# Git 操作文档（临时文档，不应提交）
+GITHUB_PUBLISH_GUIDE.md
+QUICK_START_GITHUB.md
+发布到GitHub清单.txt
+
+# 打包和构建临时文件
+build.bat
+build_exe.spec
+version_info.txt
+convert_icon.py
+*.png
+
 # 备份文件
 *.bak
 *.backup
